@@ -31,6 +31,14 @@ body{
 	font-style: italic;
 }
 
+.ui-buttons{
+
+}
+
+.button-wrapper{
+	width: 50%;
+	float: left;
+}
 .button {
 	height: 20pt;
 	width: 30%;
