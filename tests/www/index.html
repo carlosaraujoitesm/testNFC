@@ -32,7 +32,7 @@
     </head>
     <body style = "font-size: 1.5em">
         <div class="app">
-            <section id="home" class="toggle-content  is-visible">
+            <section id="home" class="toggle-content is-visible">
 				<div class="homeHeader">
 					<h1>Tec StockTaking</h1>
 		        </div>
@@ -60,8 +60,8 @@
 
 					</ul>
 				</div>
-                informacion del usuario
-                <span id="taguserid"></span>
+                <!-- informacion del usuario -->
+                <!-- <span id="taguserid"></span> -->
 
             </section>
 
@@ -73,8 +73,18 @@
 
 
             <section id="solicitar" class="toggle-content ">
-                solicitar
-                <span id="infoNFCS"></span>
+				<div class="userHeader">
+					Alumno:
+					<span id="ui-student-name"></span>
+				</div>
+				<div class="user-subpage-title">
+					Nueva orden
+				</div>
+				<div class='scrollable'>
+					<ul id='borrowed-items' class='list-items disp-items'>
+
+					</ul>
+				</div>
             </section>
 
             <section id ="devolver"class="toggle-content ">
