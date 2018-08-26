@@ -42,7 +42,7 @@ body{
 	float: left;
 }
 .button {
-	width: 70%;
+	/* width: 70%; */
 	height: 100%
 	padding: 5%;
 	font-size: 12pt;
