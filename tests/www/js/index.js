@@ -96,6 +96,7 @@ var app = {
     * NDEF-Formatable Tags
     * Mifare Classic Tags on Nexus 4, Samsung S4
     (because Broadcom doesn't support Mifare Classic)
+    comentario
     */
 
    printStudent: function(obj){app.display(obj.name,'ui-student-name');},
