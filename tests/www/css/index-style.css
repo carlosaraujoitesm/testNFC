@@ -4,6 +4,8 @@
 
 .toggle-content.is-visible {
 	display: block;
+	align-items: center;
+	text-align: center;
 }
 
 body{
@@ -34,9 +36,11 @@ body{
 
 .btn-toolbar{
 	text-align: center;
-	/* align-items: center; */
+	align-items: center;
 }
 
 .ui-btn{
 	width: 35%;
+	align-items: center;
+	text-align: center;
 }
