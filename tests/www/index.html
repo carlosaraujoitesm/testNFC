@@ -22,12 +22,17 @@
 
     <head>
         <title>Tec stocktaking</title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/index-style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
     </head>
     <body style = "font-size: 1.5em">
         <div class="app">
-            <section id="home" class="toggle-content is-visible">
+            <section id="home" class="toggle-content ">
 				<div class="homeHeader">
 					<h1>Tec StockTaking</h1>
 		        </div>
@@ -37,22 +42,23 @@
 				</div>
             </section>
 
-            <section id="userinfo" class="toggle-content ">
+            <section id="userinfo" class="toggle-content is-visible">
 				<div class="userHeader">
 					Alumno:
 					<span id="ui-student-name"></span>
 				</div>
-				<div class="ui-buttons">
-					<div class="button-wrapper">
-						<div class="button return" id='ui-return-items'>
-							Regresar articulos
-						</div>
-					</div>
-					<div class="button-wrapper">
-						<div class="button new" id='ui-new-order'>
-							Nueva orden
-						</div>
-					</div>
+				<div class="btn-toolbar">
+					<button type="button" class="btn btn-danger ui-btn">
+						Regresar articulos
+					</button>
+					<button type="button" class="btn btn-success ui-btn">
+						Nueva orden
+					</button>
+				</div>
+				<div class='scrollable'>
+					<ul class='list-items disp-items'>
+
+					</ul>
 				</div>
                 informacion del usuario
                 <span id="taguserid"></span>

@@ -11,6 +11,7 @@ body{
 	text-align: center;
 	background-color: #292929;
 	color: white;
+	font-family: sans-serif;
 }
 
 .homeHeader{
@@ -31,31 +32,11 @@ body{
 	font-style: italic;
 }
 
-.ui-buttons{
-	height: 50pt;
+.btn-toolbar{
+	/* text-align: center; */
+	align-items: center;
 }
 
-.button-wrapper{
-	margin-top: 15pt;
-	width: 40%;
-	height: 100%:
-	float: left;
-}
-.button {
-	/* width: 70%; */
-	height: 100%
-	padding: 5%;
-	font-size: 12pt;
-	border-radius: 3pt;
-	border-style: solid;
-}
-
-.return {
-	background-color: red;
-	border-color: red;
-}
-
-.new {
-	background-color: green;
-	border-color: green;
+.ui-btn{
+	width: 35%;
 }
