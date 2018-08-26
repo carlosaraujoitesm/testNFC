@@ -83,6 +83,7 @@ var app = {
             app.hide(document.getElementById('devolver'));
             app.hide(document.getElementById('home'));
             app.hide(document.getElementById('userInfo'));
+
             app.show(document.getElementById('deviceInfo'));
             app.showTag(nfcEvent.tag,'componentsInfo');
 
