@@ -33,8 +33,8 @@ body{
 }
 
 .btn-toolbar{
-	/* text-align: center; */
-	align-items: center;
+	text-align: center;
+	/* align-items: center; */
 }
 
 .ui-btn{
