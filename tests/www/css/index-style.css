@@ -10,6 +10,7 @@ body{
 	align-items: center;
 	text-align: center;
 	background-color: #292929;
+	color: white;
 }
 
 .homeHeader{
@@ -28,4 +29,21 @@ body{
 	color: white;
 	font-size: 14pt;
 	font-style: italic;
+}
+
+.button {
+	height: 20pt;
+	width: 30%;
+	font-size: 12pt;
+	border-radius: 3pt;
+	border-color: red;
+	border-style: solid;
+}
+
+.return {
+	background-color: red;
+}
+
+.new {
+	background-color: green;
 }
