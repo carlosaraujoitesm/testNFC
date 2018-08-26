@@ -1,0 +1,42 @@
+.toggle-content {
+	display: none;
+}
+
+.toggle-content.is-visible {
+	display: block;
+}
+
+body{
+	align-items: center;
+	text-align: center;
+	background-color: #292929;
+	color: white;
+	font-family: sans-serif;
+}
+
+.homeHeader{
+	color: #0239B0;
+	font-family: sans-serif;
+	font-size: 16pt;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.homeBody img{
+	max-width: 80%;
+	/* height: 50%; */
+}
+
+.homeBody p{
+	color: white;
+	font-size: 14pt;
+	font-style: italic;
+}
+
+.btn-toolbar{
+	/* text-align: center; */
+	align-items: center;
+}
+
+.ui-btn{
+	width: 35%;
+}
