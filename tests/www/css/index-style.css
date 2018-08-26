@@ -36,22 +36,24 @@ body{
 }
 
 .button-wrapper{
+	margin-top: 15pt;
 	width: 50%;
 	float: left;
 }
 .button {
-	height: 20pt;
-	width: 30%;
+	width: 80%;
+	padding: 5%;
 	font-size: 12pt;
 	border-radius: 3pt;
-	border-color: red;
 	border-style: solid;
 }
 
 .return {
 	background-color: red;
+	border-color: red;
 }
 
 .new {
 	background-color: green;
+	border-color: green;
 }
