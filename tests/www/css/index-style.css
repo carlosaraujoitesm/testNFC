@@ -32,12 +32,13 @@ body{
 }
 
 .ui-buttons{
-
+	height: 50pt;
 }
 
 .button-wrapper{
 	margin-top: 15pt;
 	width: 50%;
+	height: 100%:
 	float: left;
 }
 .button {
